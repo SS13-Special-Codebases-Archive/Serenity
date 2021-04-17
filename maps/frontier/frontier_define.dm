@@ -14,7 +14,7 @@
 
 	allowed_spawns = list("Cryogenic Storage")
 
-	station_name  = "Zvezda Array"
+	station_name  = "Outpost Epsilon"
 	station_short = "Frontier"
 	dock_name     = "TCTM1-54 GR-32 ST"
 	boss_name     = "TetraCorp Announcement Relay"
