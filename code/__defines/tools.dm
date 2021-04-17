@@ -1,0 +1,6 @@
+#define IS_CROWBAR  "is_crowbar"
+#define IS_WRENCH  "is_wrench"
+#define IS_SCREWDRIVER  "is_screwdriver"
+#define IS_WIRECUTTER  "is_wirecutter"
+#define IS_WELDINGTOOL "is_weldingtool"
+#define IS_SAW "is_saw"
