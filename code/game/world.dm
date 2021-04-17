@@ -1,4 +1,4 @@
-/var/server_name = "Interpost Hague"
+/var/server_name = "TSV Serenity"
 
 /var/game_id = null
 /hook/global_init/proc/generate_gameid()
