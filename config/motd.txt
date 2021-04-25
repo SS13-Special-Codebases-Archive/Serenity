@@ -1,0 +1,7 @@
+<h1>Welcome to Interpost Hague!</h1>
+
+-<i>This server is running <a href="hhttps://github.com/butmun/Interpost-Hague/">Interbay's</a> modification of the <a href="https://baystation12.net/">Baystation 12</a> SS13 code.</i>
+<br><br>
+<strong>Discord:</strong> https://discord.gg/gD6Vbw4
+<strong>GitHub:</strong> https://github.com/butmun/Interpost-Hague/
+<strong>Bugtracker:</strong> https://github.com/butmun/Interpost-Hague/issues/ for posting of bugs and issues.
