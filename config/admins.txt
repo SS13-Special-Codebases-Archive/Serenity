@@ -7,6 +7,7 @@
 
 # kings #
 Sintyz - Host
+the spire - Admin
 
 # peasants #
 
