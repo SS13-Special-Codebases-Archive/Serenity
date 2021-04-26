@@ -8,6 +8,7 @@
 # kings #
 Sintyz - Host
 the spire - Admin
+Gogoing - Admin
 
 # peasants #
 
