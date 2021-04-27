@@ -1671,6 +1671,11 @@ var/list/rank_prefix = list(\
 	var/blood_result = get_blood_circulation()
 	return "[Floor((120+rand(-5,5))*(blood_result/100))]/[Floor((80+rand(-5,5))*(blood_result/100))]"
 
+//get blood type
+/mob/living/carbon/human/proc/get_bloodtype()
+	var/blood_type = b_type
+	return bloodtype
+
 //Point at which you dun breathe no more. Separate from asystole crit, which is heart-related.
 /mob/living/carbon/human/proc/nervous_system_failure()
 	return getBrainLoss() >= maxHealth * 0.75
