@@ -31,8 +31,9 @@ RetiredAdmin
 
 Moderator       +MOD
 TrialModerator  +MOD
+Enforcer        +ADMIN +REJUV +VAREDIT
 
-Mentor		+MENTOR  
+Mentor		      +MENTOR  
 TrialAdmin      +@ +ADMIN +STEALTH +SPAWN +REJUV +VAREDIT +BAN +SERVER
 GameAdmin       +@ +DEBUG +FUN +POSSESS +BUILDMODE +SOUND +PERMISSIONS
 
