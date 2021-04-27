@@ -5,16 +5,10 @@
 # Ranks can be anything defined in admin_ranks.txt           ~Carn   #
 ######################################################################
 
-# kings #
+
 Sintyz - Host
-StinkethStonketh - Admin
-Gogoing - Admin
+StinkethStonketh - Enforcer
+Gogoing - Enforcer
+the spire - Enforcer
 
-# peasants #
 
-
-# workers #
-
-# thanos snapped 5-5-2020 15:46
-
-# thanos snapped again, 3-6-2020 21:40
