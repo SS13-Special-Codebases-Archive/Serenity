@@ -1010,7 +1010,6 @@
 	},
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/device/flashlight/glowstick,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cc" = (
@@ -1141,7 +1140,6 @@
 	},
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/device/flashlight/glowstick,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cr" = (
@@ -1995,6 +1993,17 @@
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
 	})
+"sA" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/greenglow,
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "ti" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -3354,6 +3363,11 @@
 	name = "north bump";
 	pixel_y = 24
 	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2";
+	pixel_y = 0
+	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/fore)
 "LZ" = (
@@ -3644,6 +3658,30 @@
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
 	})
+"Rm" = (
+/obj/effect/floor_decal/newcorner/white,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0;
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8";
+	pixel_x = 0;
+	tag = ""
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/fore)
 "Rt" = (
 /turf/simulated/floor/tiled/airless,
 /area/hydroponics)
@@ -3798,6 +3836,17 @@
 /area/bridge)
 "TG" = (
 /turf/simulated/floor/plating,
+/area/crew_quarters/sleep/cryo)
+"TL" = (
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/greenglow,
+/turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "Uj" = (
 /obj/effect/floor_decal/newcorner/blue/corner{
@@ -36481,7 +36530,7 @@ bM
 bM
 bY
 cc
-cc
+sA
 cc
 bA
 ix
@@ -37509,7 +37558,7 @@ bN
 bM
 bX
 cf
-cf
+TL
 cf
 bA
 ix
@@ -37759,7 +37808,7 @@ Ez
 bk
 WV
 LY
-bw
+Rm
 zY
 bH
 bO
