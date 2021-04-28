@@ -352,12 +352,23 @@
 	name = "north bump";
 	pixel_y = 24
 	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/bar)
 "aR" = (
 /obj/effect/floor_decal/newcorner/black{
 	dir = 1;
 	icon_state = "black"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8";
+	pixel_x = 0;
+	tag = ""
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/bar)
@@ -785,7 +796,6 @@
 /area/crew_quarters/sleep/cryo)
 "bB" = (
 /obj/effect/decal/cleanable/generic,
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
 "bC" = (
@@ -795,7 +805,6 @@
 	icon_state = "black-quarter";
 	tag = "icon-black-quarter (NORTH)"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bD" = (
@@ -807,7 +816,6 @@
 	pixel_y = 32
 	},
 /obj/item/weapon/material/shard,
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bE" = (
@@ -815,7 +823,6 @@
 	dir = 1;
 	icon_state = "black"
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
@@ -825,7 +832,6 @@
 	icon_state = "black"
 	},
 /obj/effect/decal/cleanable/generic,
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bG" = (
@@ -836,7 +842,6 @@
 /obj/structure/sign/tetracorp{
 	pixel_y = 32
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -853,7 +858,6 @@
 	icon_state = "black-quarter";
 	tag = "icon-black-quarter (EAST)"
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
 /obj/machinery/light_switch{
 	pixel_x = 22;
@@ -872,7 +876,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bI" = (
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
 "bJ" = (
@@ -899,18 +902,35 @@
 	icon_state = "black";
 	tag = "icon-black (WEST)"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bM" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/sleep/cryo)
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0;
+	tag = ""
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4;
+	icon_state = "intact-supply";
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/hallway/primary/fore)
 "bN" = (
 /obj/item/weapon/material/shard{
 	icon_state = "medium"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bO" = (
@@ -919,7 +939,6 @@
 	icon_state = "black";
 	tag = "icon-black (EAST)"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bP" = (
@@ -940,7 +959,6 @@
 "bQ" = (
 /obj/structure/table/rack,
 /obj/item/weapon/storage/backpack/rucksack,
-/obj/effect/decal/cleanable/dirt,
 /obj/item/stack/material/steel/fifty,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
@@ -955,7 +973,6 @@
 /obj/random/tech_supply,
 /obj/item/device/flashlight,
 /obj/item/device/flashlight,
-/obj/effect/decal/cleanable/dirt,
 /obj/random/medical/lite,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
@@ -966,7 +983,6 @@
 /obj/random/technology_scanner,
 /obj/item/device/flashlight,
 /obj/item/device/flashlight,
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
 "bU" = (
@@ -1000,7 +1016,6 @@
 "ca" = (
 /obj/structure/closet/emcloset,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
@@ -1009,7 +1024,6 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/generic,
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cc" = (
@@ -1019,7 +1033,6 @@
 /obj/effect/landmark{
 	name = "JoinLateCryo"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cd" = (
@@ -1047,14 +1060,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cg" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/item/weapon/crowbar,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
@@ -1069,14 +1080,12 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
 "cj" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "ck" = (
@@ -1107,7 +1116,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cn" = (
@@ -1116,7 +1124,6 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
 "co" = (
@@ -1126,7 +1133,6 @@
 /obj/structure/sign/sancposter6{
 	pixel_x = -32
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/item/weapon/crowbar,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
@@ -1139,7 +1145,6 @@
 	pixel_x = 32
 	},
 /obj/effect/decal/cleanable/generic,
-/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cr" = (
@@ -1437,7 +1442,6 @@
 	requires_power = 0
 	})
 "gP" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
 /obj/machinery/light/small{
 	dir = 4
@@ -1516,7 +1520,6 @@
 /turf/simulated/floor/tiled/airless,
 /area/hallway/primary/fore)
 "ia" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
@@ -1855,6 +1858,8 @@
 /obj/item/weapon/gun/projectile/shotgun/pump/boltaction/shitty,
 /obj/item/weapon/gun/projectile/shotgun/pump/boltaction/shitty,
 /obj/machinery/light,
+/obj/item/weapon/storage/box/ammo/rifle,
+/obj/item/weapon/storage/box/ammo/rifle,
 /turf/simulated/floor/tiled/bunker/polar,
 /area/security/main)
 "pk" = (
@@ -1899,7 +1904,6 @@
 /turf/simulated/floor/plating,
 /area/crew_quarters/sleep/cryo)
 "pK" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
@@ -1993,17 +1997,6 @@
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
 	})
-"sA" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/greenglow,
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/sleep/cryo)
 "ti" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -2157,7 +2150,6 @@
 "ve" = (
 /obj/structure/closet/emcloset,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
@@ -2413,6 +2405,16 @@
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
 	})
+"yn" = (
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/greenglow,
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "yu" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -2544,6 +2546,30 @@
 "zY" = (
 /turf/simulated/wall,
 /area/crew_quarters/sleep/cryo)
+"Aa" = (
+/obj/effect/floor_decal/newcorner/white,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0;
+	tag = ""
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8";
+	pixel_x = 0;
+	tag = ""
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/fore)
 "Ah" = (
 /obj/structure/cable/orange{
 	d2 = 4;
@@ -2609,7 +2635,7 @@
 	icon_state = "red";
 	tag = "icon-red (NORTH)"
 	},
-/mob/living/simple_animal/hostile/carp,
+/mob/living/simple_animal/hostile/carp/shark,
 /turf/simulated/floor/tiled/dark/airless,
 /area/security/main)
 "Bm" = (
@@ -2859,6 +2885,13 @@
 "EH" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0;
+	tag = ""
+	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/bar)
 "EI" = (
@@ -2974,7 +3007,7 @@
 	icon_state = "red";
 	tag = "icon-red (WEST)"
 	},
-/mob/living/simple_animal/hostile/giant_spider,
+/mob/living/simple_animal/hostile/giant_spider/hunter,
 /turf/simulated/floor/tiled/dark,
 /area/security/main)
 "Gc" = (
@@ -3658,30 +3691,6 @@
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
 	})
-"Rm" = (
-/obj/effect/floor_decal/newcorner/white,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	pixel_x = 0;
-	tag = ""
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8";
-	pixel_x = 0;
-	tag = ""
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/fore)
 "Rt" = (
 /turf/simulated/floor/tiled/airless,
 /area/hydroponics)
@@ -3837,17 +3846,6 @@
 "TG" = (
 /turf/simulated/floor/plating,
 /area/crew_quarters/sleep/cryo)
-"TL" = (
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/greenglow,
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/sleep/cryo)
 "Uj" = (
 /obj/effect/floor_decal/newcorner/blue/corner{
 	dir = 4;
@@ -3967,6 +3965,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fore)
+"VR" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/obj/effect/decal/cleanable/greenglow,
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "VS" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled,
@@ -4002,7 +4010,6 @@
 	dir = 1;
 	icon_state = "black"
 	},
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	d1 = 1;
@@ -4274,6 +4281,7 @@
 /area/security/main)
 "ZK" = (
 /obj/item/weapon/material/shard,
+/mob/living/simple_animal/hostile/hivebot,
 /turf/simulated/floor/tiled/dark/airless,
 /area/security/main)
 "ZY" = (
@@ -36526,11 +36534,11 @@ VX
 bw
 KB
 bD
-bM
-bM
+bY
+bY
 bY
 cc
-sA
+VR
 cc
 bA
 ix
@@ -37040,7 +37048,7 @@ VX
 bw
 bA
 bF
-bM
+bY
 bT
 KB
 KB
@@ -37555,10 +37563,10 @@ bw
 KB
 bG
 bN
-bM
+bY
 bX
 cf
-TL
+yn
 cf
 bA
 ix
@@ -37799,7 +37807,7 @@ Rt
 av
 aq
 ak
-De
+bM
 EH
 aR
 aZ
@@ -37808,7 +37816,7 @@ Ez
 bk
 WV
 LY
-Rm
+Aa
 zY
 bH
 bO
