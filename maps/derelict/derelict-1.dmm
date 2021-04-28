@@ -6,289 +6,28 @@
 /turf/simulated/wall/r_wall,
 /area/space)
 "ac" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor/bluegrid,
-/area/tcommsat/chamber)
+/turf/simulated/floor/plating,
+/area/space)
 "ad" = (
-/obj/machinery/power/smes/buildable{
-	RCon_tag = "Telecommunications Satellite";
-	charge = 2.5e+006;
-	input_attempt = 1;
-	input_level = 250000;
-	inputting = 0;
-	output_attempt = 1;
-	output_level = 250000
-	},
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/airless,
-/area/tcommsat/chamber)
+/obj/machinery/atmospherics/pipe/zpipe/up/supply,
+/obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,
+/turf/simulated/floor/plating,
+/area/space)
 "ae" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 6;
-	icon_state = "warning"
+/obj/machinery/door/airlock/maintenance,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/obj/machinery/alarm/server{
-	pixel_y = 24
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/machinery/power/terminal{
-	dir = 8;
-	icon_state = "term";
-	tag = "icon-term (WEST)"
-	},
-/turf/simulated/floor/airless,
-/area/tcommsat/chamber)
+/turf/simulated/floor/plating,
+/area/space)
 "af" = (
-/obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 0
-	},
-/turf/simulated/floor/bluegrid,
-/area/tcommsat/chamber)
-"ag" = (
-/obj/machinery/telecomms/processor/preset_two,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"ah" = (
-/obj/machinery/telecomms/relay/preset/station,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"ai" = (
-/obj/machinery/telecomms/bus/preset_four,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"aj" = (
-/obj/machinery/telecomms/processor/preset_four,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"ak" = (
-/obj/machinery/telecomms/bus/preset_one,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"al" = (
-/obj/machinery/telecomms/processor/preset_one,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"am" = (
-/obj/machinery/bluespacerelay,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"an" = (
-/obj/machinery/telecomms/processor/preset_three,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"ao" = (
-/obj/machinery/telecomms/bus/preset_three,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"ap" = (
-/obj/machinery/telecomms/receiver/preset_right,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"aq" = (
-/obj/machinery/telecomms/server/presets/supply,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"ar" = (
-/obj/machinery/telecomms/server/presets/service,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"as" = (
-/obj/machinery/telecomms/server/presets/medical,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"at" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/bluegrid,
-/area/tcommsat/chamber)
-"au" = (
-/obj/machinery/telecomms/server/presets/security,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"av" = (
-/obj/machinery/telecomms/server/presets/common,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"aw" = (
-/obj/machinery/telecomms/server/presets/engineering,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"ax" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Relay Maintenance";
-	req_access = list(61)
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"ay" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/tcommsat/computer)
-"az" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 23
-	},
-/turf/simulated/floor/tiled,
-/area/tcommsat/computer)
-"aA" = (
-/obj/structure/table/standard,
-/obj/machinery/cell_charger,
-/obj/machinery/light,
-/turf/simulated/floor/tiled,
-/area/tcommsat/computer)
-"aB" = (
-/obj/machinery/computer/telecomms/server{
-	network = "tcommsat"
-	},
-/obj/machinery/alarm{
-	dir = 1;
-	pixel_y = -22
-	},
-/turf/simulated/floor/tiled,
-/area/tcommsat/computer)
-"cQ" = (
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 10
-	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_y = 23
-	},
-/turf/simulated/floor/airless,
-/area/tcommsat/chamber)
-"AD" = (
-/obj/machinery/telecomms/broadcaster/preset_right,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"AN" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0
-	},
-/turf/simulated/floor/bluegrid,
-/area/tcommsat/chamber)
-"Bq" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/structure/bed/chair/office/dark{
-	dir = 2
-	},
-/turf/simulated/floor/tiled,
-/area/tcommsat/computer)
-"Br" = (
-/obj/machinery/computer/telecomms/monitor{
-	network = "tcommsat"
-	},
-/turf/simulated/floor/tiled,
-/area/tcommsat/computer)
-"Bs" = (
-/obj/structure/table/standard,
-/obj/machinery/camera/autoname{
-	dir = 1;
-	icon_state = "camera";
-	tag = "icon-camera (NORTH)"
-	},
-/obj/item/weapon/folder/yellow,
-/obj/item/weapon/folder/yellow,
-/turf/simulated/floor/tiled,
-/area/tcommsat/computer)
-"Bt" = (
-/obj/structure/table/standard,
-/obj/item/device/flashlight/lamp,
-/obj/machinery/light,
-/turf/simulated/floor/tiled,
-/area/tcommsat/computer)
-"Bz" = (
-/obj/machinery/telecomms/bus/preset_two,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"BC" = (
-/obj/machinery/telecomms/relay/preset/telecomms,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"BE" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/ntnet_relay,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"BG" = (
-/obj/machinery/telecomms/hub/preset,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"BH" = (
-/turf/simulated/floor/bluegrid,
-/area/tcommsat/chamber)
-"BO" = (
-/obj/machinery/telecomms/server/presets/command,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"BR" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Relay Maintenance";
-	req_access = list(61)
-	},
-/turf/simulated/floor/tiled/bunker/black,
-/area/tcommsat/chamber)
-"BS" = (
-/turf/simulated/wall/r_wall,
-/area/tcommsat/chamber)
-"Cl" = (
-/turf/simulated/wall/r_wall,
-/area/tcommsat/computer)
+/obj/structure/ladder/up,
+/turf/simulated/floor/plating,
+/area/space)
 
 (1,1,1) = {"
 aa
@@ -30993,16 +30732,16 @@ aa
 aa
 aa
 aa
-ab
-ab
-ab
-BS
-BS
-BS
-BS
-BS
-BS
-BS
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -31250,16 +30989,16 @@ aa
 aa
 aa
 aa
-ab
 aa
 aa
-BS
-ac
-ag
-ak
-BH
-aq
-BS
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -31507,19 +31246,19 @@ aa
 aa
 aa
 aa
-ab
 aa
 aa
-BS
-BH
-Bz
-al
-BH
-ar
-BS
-Cl
-Cl
-Cl
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -31764,19 +31503,19 @@ aa
 aa
 aa
 aa
-ab
 aa
 aa
-BS
-BH
-BC
-BE
-BH
-as
-BS
-ay
-aA
-Cl
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -32021,19 +31760,19 @@ aa
 aa
 aa
 aa
-ab
 aa
 aa
-BS
-cQ
-BH
-BH
-BH
-BH
-BR
-ay
-aB
-Cl
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -32278,19 +32017,19 @@ aa
 aa
 aa
 aa
-ab
 aa
 aa
-BS
-ad
-AD
-BG
-ap
-BO
-BS
-Bq
-Br
-Cl
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -32535,19 +32274,19 @@ aa
 aa
 aa
 aa
-ab
 aa
 aa
-BS
-ae
-AN
-AN
-AN
-at
-ax
-ay
-Bs
-Cl
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -32792,19 +32531,19 @@ aa
 aa
 aa
 aa
-ab
 aa
 aa
-BS
-BH
-ah
-am
-BH
-au
-BS
-az
-Bt
-Cl
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -33049,19 +32788,19 @@ aa
 aa
 aa
 aa
-ab
 aa
 aa
-BS
-BH
-ai
-an
-BH
-av
-BS
-Cl
-Cl
-Cl
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -33306,16 +33045,16 @@ aa
 aa
 aa
 aa
-ab
 aa
 aa
-BS
-af
-aj
-ao
-BH
-aw
-BS
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -33563,16 +33302,16 @@ aa
 aa
 aa
 aa
-ab
-ab
-ab
-BS
-BS
-BS
-BS
-BS
-BS
-BS
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -35093,11 +34832,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+ab
+ab
+ae
+ab
+ab
 aa
 aa
 aa
@@ -35350,11 +35089,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+ab
+ac
+ac
+ac
+ab
 aa
 aa
 aa
@@ -35607,11 +35346,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+ab
+ad
+ac
+af
+ab
 aa
 aa
 aa
@@ -35864,11 +35603,11 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
+ab
+ab
+ab
+ab
+ab
 aa
 aa
 aa
