@@ -109,9 +109,6 @@ proc/medical_scan_results(var/mob/living/carbon/human/H, var/verbose)
 		. += "<span class='danger'>Severe blood loss detected.</span>"
 	. += "<b>Blood pressure:</b> [H.get_blood_pressure()] ([H.get_blood_oxygenation()]% blood oxygenation)"
 
-	// Gets blood type.
-	. += "<span class='notice'>Blood type: [H.get_bloodtype()]</span>"
-
 	// Body temperature.
 	. += "<span class='notice'>Body temperature: [H.bodytemperature-T0C]&deg;C ([H.bodytemperature*1.8-459.67]&deg;F)</span>"
 
