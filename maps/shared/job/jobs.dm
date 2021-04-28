@@ -33,7 +33,7 @@
 						///datum/job/chaplain,
 						)
 
-/datum/map/arbanon
+/datum/map/derelict
 	allowed_jobs = list(
 						/datum/job/captain,
 						//datum/job/countess,
@@ -67,7 +67,6 @@
 						///datum/job/raider/leader
 						///datum/job/chaplain,
 						)
-
 
 /datum/map/utopia
 	allowed_jobs = list(

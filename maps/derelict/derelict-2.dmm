@@ -2052,29 +2052,13 @@
 	requires_power = 0
 	})
 "tJ" = (
-/mob/living/simple_animal/hostile/carp,
-/obj/effect/floor_decal/newcorner/white{
+/obj/effect/floor_decal/newcorner/blue{
 	dir = 1;
-	icon_state = "white";
-	tag = "icon-white (NORTH)"
+	icon_state = "blue"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4;
-	icon_state = "intact-supply";
-	tag = ""
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	pixel_x = 0;
-	tag = ""
-	},
+/mob/living/simple_animal/hostile/carp,
 /turf/simulated/floor/tiled/airless,
-/area/hallway/primary/fore)
+/area/bridge)
 "tK" = (
 /obj/machinery/power/terminal{
 	dir = 4;
@@ -2635,7 +2619,6 @@
 	icon_state = "red";
 	tag = "icon-red (NORTH)"
 	},
-/mob/living/simple_animal/hostile/carp/shark,
 /turf/simulated/floor/tiled/dark/airless,
 /area/security/main)
 "Bm" = (
@@ -3007,7 +2990,7 @@
 	icon_state = "red";
 	tag = "icon-red (WEST)"
 	},
-/mob/living/simple_animal/hostile/giant_spider/hunter,
+/mob/living/simple_animal/hostile/hivebot/range,
 /turf/simulated/floor/tiled/dark,
 /area/security/main)
 "Gc" = (
@@ -3171,7 +3154,6 @@
 /turf/simulated/floor/tiled/airless,
 /area/hydroponics)
 "IE" = (
-/obj/structure/lattice,
 /mob/living/simple_animal/hostile/carp,
 /turf/space,
 /area/space)
@@ -3500,6 +3482,12 @@
 	},
 /turf/simulated/floor/tiled/barnew,
 /area/crew_quarters/bar)
+"ND" = (
+/mob/living/simple_animal/hostile/carp,
+/turf/space,
+/area/errant_pisces/solar_starboard{
+	requires_power = 0
+	})
 "NE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4;
@@ -28807,7 +28795,7 @@ yk
 yk
 yk
 yk
-yk
+ND
 yk
 yk
 yk
@@ -32397,7 +32385,7 @@ ix
 ix
 ix
 ix
-ix
+IE
 ix
 ix
 ix
@@ -32431,7 +32419,7 @@ ix
 ix
 ix
 ix
-ix
+IE
 ix
 ix
 ix
@@ -37533,7 +37521,7 @@ ix
 ix
 ix
 WX
-nW
+tJ
 hy
 xF
 hy
@@ -37541,7 +37529,7 @@ hy
 Sk
 Yu
 WX
-tJ
+Au
 ai
 ak
 ap
@@ -39343,7 +39331,7 @@ ix
 ix
 ix
 ix
-IE
+af
 VZ
 VZ
 mR
