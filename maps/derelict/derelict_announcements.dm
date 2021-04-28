@@ -1,4 +1,4 @@
-/datum/map/frontier
+/datum/map/derelict
 	emergency_shuttle_docked_message = "The Emergency Shuttle has docked with the outpost. You have approximately %ETD% to board the Emergency Shuttle."
 	emergency_shuttle_leaving_dock = "The Emergency Shuttle has left the outpost. Estimate %ETA% until the shuttle docks at %dock_name%."
 

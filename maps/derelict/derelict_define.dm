@@ -1,10 +1,10 @@
 
-/datum/map/frontier
-	name = "Frontier"
-	full_name = "Space Outpost Frontier"
-	path = "frontier"
+/datum/map/derelict
+	name = "Serenity"
+	full_name = "TSV Serenity"
+	path = "derelict"
 
-	lobby_icon = 'maps/frontier/frontier_lobby.dmi'
+	lobby_icon = 'maps/derelict/derelict_lobby.dmi'
 
 	station_levels = list(1,2,3,4)
 	admin_levels = list(5)
@@ -15,7 +15,7 @@
 	allowed_spawns = list("Cryogenic Storage")
 
 	station_name  = "Outpost Epsilon"
-	station_short = "Frontier"
+	station_short = "Serenity"
 	dock_name     = "TCTM1-54 GR-32 ST"
 	boss_name     = "TetraCorp Announcement Relay"
 	boss_short    = "TetraCorp"
@@ -61,7 +61,7 @@
 		new /datum/event_meta(EVENT_LEVEL_MUNDANE, "Space Cold Outbreak",/datum/event/space_cold,		100,	list(ASSIGNMENT_MEDICAL = 20)),
 	)
 
-/datum/map/frontier/perform_map_generation()
+/datum/map/derelict/perform_map_generation()
 	new /datum/random_map/automata/cave_system(null,1,1,3,255, 255) // Create the mining Z-level.
 	new /datum/random_map/noise/ore(null,1,1,3,64, 64)
 	new /datum/random_map/automata/cave_system(null,1,1,2,255, 255) // Create the mining Z-level.

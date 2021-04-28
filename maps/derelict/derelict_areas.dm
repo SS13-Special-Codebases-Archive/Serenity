@@ -1,4 +1,4 @@
-/datum/map/frontier
+/datum/map/derelict
 	post_round_safe_areas = list (
 		/area/centcom,
 		/area/shuttle/escape/centcom,
