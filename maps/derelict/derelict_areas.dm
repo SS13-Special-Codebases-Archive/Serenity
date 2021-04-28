@@ -1,4 +1,4 @@
-/datum/map/arbanon
+/datum/map/frontier
 	post_round_safe_areas = list (
 		/area/centcom,
 		/area/shuttle/escape/centcom,

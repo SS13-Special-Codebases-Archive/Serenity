@@ -2,8 +2,8 @@
 
 	#include "../shared/exodus_torch/_include.dm"
 
-	#include "arbanon_announcements.dm"
-	#include "arbanon_areas.dm"
+	#include "frontier_announcements.dm"
+	#include "frontier_areas.dm"
 
 
 	//CONTENT
@@ -11,16 +11,16 @@
 	#include "../shared/datums/uniforms.dm"
 	#include "../shared/items/cards_ids.dm"
 	#include "../shared/items/clothing.dm"
-	#include "arbanon_gamemodes.dm"
-	#include "arbanon_presets.dm"
-	#include "arbanon_shuttles.dm"
-	#include "arbanon_elevator.dm"
+	#include "frontier_gamemodes.dm"
+	#include "frontier_presets.dm"
+	#include "frontier_shuttles.dm"
+	#include "frontier_elevator.dm"
 
-	#include "arbanon-1.dmm"
-	#include "arbanon-2.dmm"
-	#include "arbanon-3.dmm"
-	#include "arbanon-4.dmm"
-	#include "arbanon-5.dmm"
+	#include "frontier-1.dmm"
+	#include "frontier-2.dmm"
+	#include "frontier-3.dmm"
+	#include "frontier-4.dmm"
+	#include "frontier-5.dmm"
 
 	#include "../../code/modules/lobby_music/generic_songs.dm"
 
@@ -40,9 +40,9 @@
 	#include "../away/icarus/icarus.dm"
 	#include "../away/errant_pisces/errant_pisces.dm"
 
-	#define using_map_DATUM /datum/map/arbanon
+	#define using_map_DATUM /datum/map/frontier
 
 #elif !defined(MAP_OVERRIDE)
 
-	#warn A map has already been included, ignoring arbanon
+	#warn A map has already been included, ignoring Frontier
 #endif

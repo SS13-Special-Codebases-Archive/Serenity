@@ -1,6 +1,6 @@
-/datum/map/arbanon
-	emergency_shuttle_docked_message = "The Arbanon Backup Shuttle has docked with the station. You have approximately %ETD% to board the Emergency Shuttle."
-	emergency_shuttle_leaving_dock = "The Arbanon Backup Shuttle has left the station. Estimate %ETA% until the shuttle docks at %dock_name%."
+/datum/map/frontier
+	emergency_shuttle_docked_message = "The Emergency Shuttle has docked with the outpost. You have approximately %ETD% to board the Emergency Shuttle."
+	emergency_shuttle_leaving_dock = "The Emergency Shuttle has left the outpost. Estimate %ETA% until the shuttle docks at %dock_name%."
 
 	emergency_shuttle_called_message = "WARNING: An emergency evacuation shuttle has been called. It will arrive in approximately %ETA%"
 	emergency_shuttle_called_sound = 'sound/AI/november/warning.ogg'

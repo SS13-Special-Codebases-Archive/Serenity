@@ -1,10 +1,10 @@
 
-/datum/map/arbanon
-	name = "Arbanon"
-	full_name = "Station 12 - 'Arbanon'"
-	path = "arbanon"
+/datum/map/frontier
+	name = "Frontier"
+	full_name = "Space Outpost Frontier"
+	path = "frontier"
 
-	lobby_icon = 'maps/arbanon/arbanon_lobby.dmi'
+	lobby_icon = 'maps/frontier/frontier_lobby.dmi'
 
 	station_levels = list(1,2,3,4)
 	admin_levels = list(5)
@@ -14,14 +14,14 @@
 
 	allowed_spawns = list("Cryogenic Storage")
 
-	station_name  = "Aulon Array"
-	station_short = "Arbanon"
+	station_name  = "Outpost Epsilon"
+	station_short = "Frontier"
 	dock_name     = "TCTM1-54 GR-32 ST"
 	boss_name     = "TetraCorp Announcement Relay"
 	boss_short    = "TetraCorp"
 	company_name  = "TetraCorp Announcement Relay"
 	company_short = "TRC"
-	system_name = "Aulon"
+	system_name = "Zvesda"
 
 	id_hud_icons = 'maps/dreyfus/icons/assignment_hud.dmi'
 
@@ -32,10 +32,10 @@
 	shuttle_leaving_dock = "The shuttle has departed from home dock."
 	shuttle_called_message = "A scheduled transfer shuttle has been sent."
 	shuttle_recall_message = "The shuttle has been recalled."
-	emergency_shuttle_docked_message = "The emergency escape shuttle 'Croia' has docked."
+	emergency_shuttle_docked_message = "The emergency escape shuttle 'Aqen' has docked."
 	emergency_shuttle_leaving_dock = "The emergency escape shuttle 'Aqen' has departed from %dock_name%."
-	emergency_shuttle_called_message = "The emergency escape shuttle 'Croia' has been sent."
-	emergency_shuttle_recall_message = "The emergency shuttle 'Croia' has been recalled."
+	emergency_shuttle_called_message = "The emergency escape shuttle 'Aqen' has been sent."
+	emergency_shuttle_recall_message = "The emergency shuttle 'Aqen' has been recalled."
 
 	evac_controller_type = /datum/evacuation_controller/shuttle
 

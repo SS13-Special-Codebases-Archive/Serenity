@@ -291,7 +291,7 @@
     dock_target = "skipjack_shuttle"
     current_location = "nav_skipjack_start"
     landmark_transition = "nav_skipjack_transition"
-    announcer = "ESIN Arbanon Sensor Array"
+    announcer = "ESIN Frontier Sensor Array"
     home_waypoint = "nav_skipjack_start"
     arrival_message = "Attention, vessel detected entering station proximity."
     departure_message = "Attention, vessel detected leaving station proximity."
