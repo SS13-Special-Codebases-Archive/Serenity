@@ -1547,6 +1547,10 @@
 	},
 /turf/simulated/floor/tiled/bunker/polar,
 /area/engineering/engine_room)
+"iS" = (
+/obj/structure/girder,
+/turf/simulated/floor/airless,
+/area/security/main)
 "ja" = (
 /obj/item/weapon/stool/bar/padded,
 /turf/simulated/floor/tiled/barnew,
@@ -1828,6 +1832,12 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/bar)
+"ou" = (
+/mob/living/simple_animal/hostile/carp,
+/turf/space,
+/area/errant_pisces/solar_starboard{
+	requires_power = 0
+	})
 "pg" = (
 /obj/effect/floor_decal/newcorner/white{
 	dir = 8;
@@ -3482,12 +3492,6 @@
 	},
 /turf/simulated/floor/tiled/barnew,
 /area/crew_quarters/bar)
-"ND" = (
-/mob/living/simple_animal/hostile/carp,
-/turf/space,
-/area/errant_pisces/solar_starboard{
-	requires_power = 0
-	})
 "NE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4;
@@ -28795,7 +28799,7 @@ yk
 yk
 yk
 yk
-ND
+ou
 yk
 yk
 yk
@@ -38042,7 +38046,7 @@ XY
 aa
 aa
 aa
-aa
+Is
 Au
 go
 av
@@ -39075,7 +39079,7 @@ ix
 af
 ix
 ME
-VZ
+iS
 Dj
 Dj
 Dj
