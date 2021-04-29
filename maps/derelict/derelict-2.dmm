@@ -1564,6 +1564,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -1686,6 +1687,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -2003,6 +2005,7 @@
 	dir = 8;
 	icon_state = "rcorner"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -2030,6 +2033,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -2044,6 +2048,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/solar,
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -2057,6 +2062,7 @@
 	dir = 4;
 	icon_state = "rcorner"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -2358,6 +2364,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -2415,6 +2422,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/sleep/cryo)
+"yz" = (
+/obj/effect/floor_decal/newcorner/yellow{
+	dir = 8;
+	icon_state = "yellow";
+	tag = "icon-yellow (WEST)"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack,
+/obj/item/clothing/suit/space/void/engineering,
+/turf/simulated/floor/tiled/dark,
+/area/engineering/engine_room)
 "yI" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -2848,9 +2866,8 @@
 	tag = "icon-yellow (WEST)"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/suit_storage_unit,
-/obj/item/clothing/suit/space/void,
-/obj/item/clothing/head/helmet/space/void,
+/obj/structure/table/rack,
+/obj/item/clothing/head/helmet/space/void/engineering,
 /turf/simulated/floor/tiled/dark,
 /area/engineering/engine_room)
 "Ez" = (
@@ -3071,6 +3088,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -3422,6 +3440,7 @@
 	icon_state = "rcorner"
 	},
 /obj/effect/floor_decal/newcorner/reinforced/corner,
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -3779,6 +3798,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/solar,
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -3799,6 +3819,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
@@ -34709,7 +34730,7 @@ ix
 ix
 ix
 pw
-Ex
+yz
 IV
 Dy
 Ic
@@ -36524,7 +36545,7 @@ bi
 WV
 VX
 bw
-KB
+zY
 bD
 bY
 bY
@@ -37552,7 +37573,7 @@ bj
 WV
 WD
 bw
-KB
+zY
 bG
 bN
 bY
