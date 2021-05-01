@@ -2,9 +2,6 @@
 "aa" = (
 /turf/space,
 /area/space)
-"ab" = (
-/turf/simulated/wall/r_wall,
-/area/crew_quarters/sleep/bedrooms)
 "ac" = (
 /turf/simulated/floor/plating,
 /area/hallway/primary/central_two)
@@ -76,7 +73,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/mob/living/simple_animal/hostile/giant_spider,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep/bedrooms)
 "bc" = (
@@ -91,11 +87,7 @@
 /turf/simulated/wall,
 /area/medical/medbay)
 "bu" = (
-/obj/machinery/door/firedoor/border_only,
-/obj/machinery/door/airlock{
-	id_tag = "Dormitory 2";
-	name = "Shared Bedrooms"
-	},
+/obj/item/remains/robot,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep/bedrooms)
 "bv" = (
@@ -114,16 +106,15 @@
 	},
 /turf/simulated/floor/carpet,
 /area/chapel)
-"bB" = (
-/obj/structure/window/reinforced/full,
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/medical/chemistry)
 "bT" = (
 /obj/structure/lattice,
 /turf/space,
 /area/space)
+"cB" = (
+/obj/effect/floor_decal/newcorner/whitegreen/solid,
+/obj/machinery/sleeper,
+/turf/simulated/floor/tiled/verybright,
+/area/medical/medbay)
 "dG" = (
 /obj/effect/floor_decal/newcorner/teal{
 	dir = 8;
@@ -142,11 +133,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/foamedmetal,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
-"eo" = (
-/turf/simulated/wall/r_wall,
-/area/chapel)
 "eC" = (
 /obj/effect/floor_decal/newcorner/whitegreen/quarter{
 	dir = 4;
@@ -155,36 +144,25 @@
 /obj/machinery/dna_scannernew,
 /turf/simulated/floor/tiled/verybright,
 /area/medical/medbay)
-"eT" = (
-/obj/structure/sign/churchcross{
-	pixel_x = -32
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/item/weapon/material/shard{
-	icon_state = "medium"
-	},
-/turf/simulated/floor/tiled/no1,
-/area/chapel)
-"fm" = (
+"eK" = (
+/obj/item/remains/human,
+/turf/simulated/floor/tiled/white,
+/area/medical/medbay)
+"fb" = (
 /obj/effect/floor_decal/newcorner/teal{
-	dir = 4;
+	dir = 1;
 	icon_state = "teal";
-	tag = "icon-teal (EAST)"
+	tag = "icon-teal (NORTH)"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0;
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4;
+	icon_state = "intact-supply";
 	tag = ""
 	},
-/obj/machinery/firealarm{
-	pixel_x = 24
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
+/mob/living/simple_animal/hostile/giant_spider,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "fr" = (
@@ -199,27 +177,6 @@
 /obj/effect/floor_decal/newcorner/reinforced,
 /turf/simulated/wall,
 /area/chapel)
-"fB" = (
-/obj/effect/floor_decal/newcorner/teal{
-	dir = 1;
-	icon_state = "teal";
-	tag = "icon-teal (NORTH)"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4;
-	icon_state = "intact-supply";
-	tag = ""
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
 "fR" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/alarm{
@@ -244,16 +201,23 @@
 	},
 /turf/simulated/floor/wood,
 /area/chapel)
-"gh" = (
-/obj/item/remains/human,
+"gq" = (
+/obj/structure/closet/secure_closet/personal,
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms)
+"gI" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/medical/chemistry)
+"gR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/blood,
+/mob/living/simple_animal/hostile/giant_spider,
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay)
-"gi" = (
-/turf/simulated/wall,
-/area/crew_quarters/sleep/bedrooms)
-"gN" = (
-/turf/simulated/wall,
-/area/chapel)
 "hh" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 9;
@@ -294,7 +258,49 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay)
-"hY" = (
+"hJ" = (
+/obj/effect/floor_decal/newcorner/teal,
+/mob/living/simple_animal/hostile/giant_spider,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
+"ib" = (
+/turf/simulated/wall/r_wall,
+/area/chapel)
+"id" = (
+/obj/machinery/door/airlock/virology{
+	name = "Medical Storage";
+	req_access = list(66)
+	},
+/obj/effect/floor_decal/newcorner/whitegreen/solid,
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/white,
+/area/medical/medbay)
+"io" = (
+/obj/effect/floor_decal/newcorner/teal,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
+"iI" = (
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet,
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms)
+"jc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/bunker/polar,
+/area/hallway/primary/central_two)
+"jv" = (
+/turf/simulated/wall,
+/area/hallway/primary/central_two)
+"jY" = (
 /obj/effect/floor_decal/newcorner/teal{
 	dir = 4;
 	icon_state = "teal";
@@ -309,35 +315,7 @@
 	pixel_y = 0;
 	tag = ""
 	},
-/obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
-"id" = (
-/obj/machinery/door/airlock/virology{
-	name = "Medical Storage";
-	req_access = list(66)
-	},
-/obj/effect/floor_decal/newcorner/whitegreen/solid,
-/obj/machinery/door/firedoor/border_only,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/white,
-/area/medical/medbay)
-"jc" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/bunker/polar,
-/area/hallway/primary/central_two)
-"jo" = (
-/mob/living/simple_animal/hostile/giant_spider,
-/turf/simulated/floor/carpet,
-/area/crew_quarters/sleep/bedrooms)
-"jv" = (
-/turf/simulated/wall,
 /area/hallway/primary/central_two)
 "kc" = (
 /obj/effect/floor_decal/newcorner/teal{
@@ -359,6 +337,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/foamedmetal,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "ks" = (
@@ -445,14 +424,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay)
-"mr" = (
-/obj/structure/railing{
-	dir = 4;
-	icon_state = "railing0";
-	tag = "icon-railing0 (EAST)"
-	},
-/turf/simulated/floor/plating,
-/area/hallway/primary/central_two)
 "my" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -462,30 +433,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay)
-"mB" = (
-/obj/effect/floor_decal/newcorner/teal,
-/obj/machinery/firealarm{
-	pixel_y = -24
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
-"mC" = (
-/obj/effect/floor_decal/newcorner/teal{
-	dir = 4;
-	icon_state = "teal";
-	tag = "icon-teal (EAST)"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0;
-	tag = ""
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
 "mV" = (
 /obj/effect/floor_decal/newcorner/whitegreen/solid,
 /obj/structure/table/reinforced,
@@ -517,52 +464,20 @@
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/tiled/verybright,
 /area/medical/medbay)
-"pU" = (
-/obj/effect/floor_decal/newcorner/teal,
-/mob/living/simple_animal/hostile/giant_spider,
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
 "pY" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/effect/floor_decal/newcorner/reinforced,
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/bunker/polar,
 /area/hallway/primary/central_two)
-"qt" = (
+"qP" = (
 /obj/effect/floor_decal/newcorner/teal{
-	dir = 1;
+	dir = 8;
 	icon_state = "teal";
-	tag = "icon-teal (NORTH)"
+	step_y = 0;
+	tag = "icon-teal (WEST)"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4;
-	icon_state = "intact-supply";
-	tag = ""
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/power/apc{
-	cell_type = /obj/item/weapon/cell/apc/empty;
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
-"qO" = (
-/obj/effect/floor_decal/newcorner/teal,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/decal/cleanable/generic,
+/mob/living/simple_animal/hostile/giant_spider/nurse,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "qZ" = (
@@ -575,6 +490,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/structure/foamedmetal,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "rF" = (
@@ -617,18 +533,6 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/verybright,
-/area/medical/medbay)
-"sa" = (
-/obj/effect/floor_decal/newcorner/whitegreen{
-	dir = 8;
-	icon_state = "wgreen";
-	tag = "icon-wgreen (WEST)"
-	},
-/obj/machinery/light,
-/obj/item/weapon/material/shard{
-	icon_state = "medium"
-	},
-/turf/simulated/floor/tiled/white,
 /area/medical/medbay)
 "sv" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
@@ -706,9 +610,32 @@
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
-"uh" = (
-/turf/simulated/floor/carpet,
-/area/crew_quarters/sleep/bedrooms)
+"tW" = (
+/obj/structure/railing{
+	dir = 4;
+	icon_state = "railing0";
+	tag = "icon-railing0 (EAST)"
+	},
+/turf/simulated/floor/plating,
+/area/hallway/primary/central_two)
+"ua" = (
+/obj/effect/floor_decal/newcorner/teal{
+	dir = 4;
+	icon_state = "teal";
+	tag = "icon-teal (EAST)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0;
+	tag = ""
+	},
+/obj/effect/decal/cleanable/generic,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
 "um" = (
 /obj/effect/floor_decal/newcorner/whitegreen/quarter,
 /obj/machinery/portable_atmospherics/canister/oxygen/prechilled,
@@ -743,9 +670,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay)
-"uK" = (
-/turf/simulated/wall/r_wall,
-/area/medical/medbay)
 "va" = (
 /obj/effect/floor_decal/newcorner/teal,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -759,18 +683,12 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "vr" = (
-/obj/machinery/power/apc{
-	cell_type = /obj/item/weapon/cell/apc/empty;
-	dir = 1;
-	name = "north bump";
-	pixel_y = 24
-	},
 /obj/structure/cable{
 	d2 = 2;
 	icon_state = "0-2";
 	pixel_y = 0
 	},
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/airless,
 /area/crew_quarters/sleep/bedrooms)
 "vU" = (
 /obj/effect/floor_decal/newcorner/whitegreen{
@@ -872,6 +790,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/central_two)
+"za" = (
+/obj/structure/window/reinforced/full,
+/obj/structure/grille,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/medical/medbay)
+"zU" = (
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms)
 "zV" = (
 /obj/effect/floor_decal/newcorner/whitegreen/quarter{
 	dir = 8;
@@ -887,6 +814,9 @@
 	dir = 4
 	},
 /mob/living/simple_animal/hostile/giant_spider,
+/turf/simulated/floor/tiled/white,
+/area/medical/medbay)
+"Af" = (
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay)
 "Az" = (
@@ -971,40 +901,23 @@
 	},
 /turf/simulated/floor/tiled/bunker/polar,
 /area/hallway/primary/central_two)
-"CJ" = (
-/obj/effect/floor_decal/newcorner/teal{
-	dir = 8;
-	icon_state = "teal";
-	step_y = 0;
-	tag = "icon-teal (WEST)"
-	},
-/mob/living/simple_animal/hostile/giant_spider/nurse,
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
-"Df" = (
+"CD" = (
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep/bedrooms)
+"Df" = (
+/turf/space,
+/area/crew_quarters/sleep/bedrooms)
 "Dp" = (
-/obj/effect/floor_decal/newcorner/teal{
-	dir = 4;
-	icon_state = "teal";
-	tag = "icon-teal (EAST)"
+/obj/item/weapon/material/shard{
+	icon_state = "medium"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2";
-	pixel_y = 0;
-	tag = ""
-	},
-/obj/effect/decal/cleanable/blood,
-/mob/living/simple_animal/hostile/giant_spider,
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms)
 "DF" = (
 /obj/structure/table/steel,
 /obj/item/weapon/storage/firstaid/regular,
@@ -1026,6 +939,68 @@
 /mob/living/simple_animal/hostile/giant_spider,
 /turf/simulated/floor/tiled/verybright,
 /area/medical/medbay)
+"DN" = (
+/obj/effect/floor_decal/newcorner/teal{
+	dir = 1;
+	icon_state = "teal";
+	tag = "icon-teal (NORTH)"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
+"DS" = (
+/obj/effect/floor_decal/newcorner/teal{
+	dir = 8;
+	icon_state = "teal";
+	step_y = 0;
+	tag = "icon-teal (WEST)"
+	},
+/turf/simulated/floor/tiled/airless,
+/area/hallway/primary/central_two)
+"El" = (
+/obj/effect/floor_decal/newcorner/teal{
+	dir = 1;
+	icon_state = "teal";
+	tag = "icon-teal (NORTH)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4;
+	icon_state = "intact-supply";
+	tag = ""
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/power/apc{
+	cell_type = /obj/item/weapon/cell/apc/empty;
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
+"Fv" = (
+/turf/simulated/wall/r_wall,
+/area/crew_quarters/sleep/bedrooms)
 "FC" = (
 /obj/machinery/door/airlock/glass,
 /obj/machinery/door/firedoor/border_only,
@@ -1103,24 +1078,15 @@
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/tiled/bunker/polar,
 /area/hallway/primary/central_two)
-"GY" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/carpet,
-/area/chapel)
 "Hb" = (
 /obj/machinery/atmospherics/pipe/tank/oxygen{
 	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/central_two)
-"Hc" = (
-/obj/structure/closet/secure_closet/personal,
-/turf/simulated/floor/carpet,
-/area/crew_quarters/sleep/bedrooms)
+"Hn" = (
+/turf/simulated/wall,
+/area/chapel)
 "HH" = (
 /obj/effect/floor_decal/newcorner/whitegreen{
 	dir = 4;
@@ -1150,23 +1116,6 @@
 	},
 /turf/simulated/floor/tiled/bunker/polar,
 /area/hallway/primary/central_two)
-"IO" = (
-/obj/effect/floor_decal/newcorner/teal{
-	dir = 1;
-	icon_state = "teal";
-	tag = "icon-teal (NORTH)"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4;
-	icon_state = "intact-supply";
-	tag = ""
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/mob/living/simple_animal/hostile/giant_spider,
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
 "Jh" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1189,17 +1138,12 @@
 	icon_state = "teal-quarter";
 	tag = "icon-teal-quarter (NORTH)"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/airless,
 /area/hallway/primary/central_two)
 "Ka" = (
 /obj/item/ammo_casing/a32,
 /turf/simulated/floor/plating,
 /area/medical/chemistry)
-"Kd" = (
-/obj/effect/floor_decal/newcorner/teal,
-/mob/living/simple_animal/hostile/giant_spider/hunter,
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
 "Kh" = (
 /obj/effect/floor_decal/turf/aesculapius/mori,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -1245,22 +1189,25 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/chemistry)
-"LU" = (
-/turf/simulated/floor/tiled/white,
-/area/medical/medbay)
-"Mg" = (
-/obj/item/weapon/material/shard{
-	icon_state = "medium"
+"LN" = (
+/obj/effect/floor_decal/newcorner/teal{
+	dir = 4;
+	icon_state = "teal";
+	tag = "icon-teal (EAST)"
 	},
-/turf/simulated/floor/carpet,
-/area/crew_quarters/sleep/bedrooms)
-"Mo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0;
+	tag = ""
+	},
 /obj/effect/decal/cleanable/blood,
-/mob/living/simple_animal/hostile/giant_spider,
-/turf/simulated/floor/tiled/white,
-/area/medical/medbay)
+/obj/structure/foamedmetal,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
 "Mz" = (
 /obj/effect/floor_decal/industrial/outline,
 /obj/structure/closet/crate/freezer,
@@ -1300,6 +1247,33 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/medical/medbay)
+"MS" = (
+/obj/effect/floor_decal/newcorner/whitegreen{
+	dir = 8;
+	icon_state = "wgreen";
+	tag = "icon-wgreen (WEST)"
+	},
+/obj/machinery/light,
+/obj/item/weapon/material/shard{
+	icon_state = "medium"
+	},
+/turf/simulated/floor/tiled/white,
+/area/medical/medbay)
+"MV" = (
+/obj/structure/sign/churchcross{
+	pixel_x = -32
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/weapon/material/shard{
+	icon_state = "medium"
+	},
+/turf/simulated/floor/tiled/no1,
+/area/chapel)
+"Nl" = (
+/turf/simulated/wall,
+/area/medical/chemistry)
 "No" = (
 /obj/effect/floor_decal/newcorner/teal{
 	dir = 4;
@@ -1317,7 +1291,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/airless,
 /area/hallway/primary/central_two)
 "Ns" = (
 /obj/item/remains,
@@ -1347,6 +1321,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
+"NS" = (
+/turf/simulated/floor/airless,
+/area/crew_quarters/sleep/bedrooms)
 "NT" = (
 /obj/effect/floor_decal/newcorner/whitegreen/quarter{
 	dir = 4;
@@ -1377,7 +1354,7 @@
 	icon_state = "teal-quarter";
 	tag = "icon-teal-quarter (EAST)"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/airless,
 /area/hallway/primary/central_two)
 "Po" = (
 /turf/simulated/floor/reinforced/airless,
@@ -1393,6 +1370,30 @@
 	},
 /turf/simulated/floor/tiled/verybright,
 /area/medical/medbay)
+"PC" = (
+/obj/effect/floor_decal/newcorner/teal{
+	dir = 1;
+	icon_state = "teal";
+	tag = "icon-teal (NORTH)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4;
+	icon_state = "intact-supply";
+	tag = ""
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/alarm{
+	pixel_y = 22
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
 "PH" = (
 /obj/effect/floor_decal/newcorner/teal{
 	dir = 8;
@@ -1402,6 +1403,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
+"PI" = (
+/turf/simulated/floor/carpet,
+/area/chapel)
 "PP" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -1456,7 +1460,8 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/generic,
-/turf/simulated/floor/tiled,
+/mob/living/simple_animal/hostile/carp,
+/turf/simulated/floor/tiled/airless,
 /area/hallway/primary/central_two)
 "Qj" = (
 /obj/effect/floor_decal/spline/plain{
@@ -1494,6 +1499,7 @@
 /obj/machinery/alarm{
 	pixel_y = 22
 	},
+/obj/item/weapon/circuitboard/autolathe,
 /turf/simulated/floor/wood,
 /area/chapel)
 "Qy" = (
@@ -1546,25 +1552,6 @@
 /obj/effect/floor_decal/newcorner/teal,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
-"RH" = (
-/obj/effect/floor_decal/newcorner/teal{
-	dir = 1;
-	icon_state = "teal";
-	tag = "icon-teal (NORTH)"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/central_two)
 "RP" = (
 /obj/effect/floor_decal/newcorner/whitegreen{
 	dir = 8;
@@ -1601,6 +1588,30 @@
 /mob/living/simple_animal/hostile/giant_spider/hunter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
+"RZ" = (
+/obj/effect/floor_decal/newcorner/teal{
+	dir = 4;
+	icon_state = "teal";
+	tag = "icon-teal (EAST)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0;
+	tag = ""
+	},
+/obj/machinery/firealarm{
+	pixel_x = 24
+	},
+/obj/structure/foamedmetal,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
+"Sd" = (
+/turf/simulated/wall,
+/area/crew_quarters/sleep/bedrooms)
 "Sh" = (
 /obj/structure/sign/church{
 	pixel_x = -32
@@ -1611,6 +1622,7 @@
 	step_y = 0;
 	tag = "icon-teal (WEST)"
 	},
+/obj/structure/foamedmetal,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "Sx" = (
@@ -1633,11 +1645,8 @@
 	icon_state = "alarm0";
 	pixel_x = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/airless,
 /area/hallway/primary/central_two)
-"SM" = (
-/turf/simulated/floor/carpet,
-/area/chapel)
 "SR" = (
 /obj/structure/flora/pottedplant/thinbush,
 /obj/effect/floor_decal/newcorner/teal/quarter{
@@ -1659,6 +1668,11 @@
 /obj/machinery/door/firedoor/border_only,
 /turf/simulated/floor/plating,
 /area/medical/chemistry)
+"Ta" = (
+/obj/effect/floor_decal/newcorner/teal,
+/mob/living/simple_animal/hostile/giant_spider/hunter,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
 "Tt" = (
 /obj/effect/floor_decal/newcorner/whitegreen{
 	dir = 1;
@@ -1694,18 +1708,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/chemistry)
-"TH" = (
-/obj/structure/window/reinforced/full,
-/obj/structure/grille,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/medical/medbay)
-"TX" = (
-/obj/structure/bed/padded,
-/obj/item/weapon/bedsheet,
-/obj/machinery/light{
-	dir = 8
+"Tz" = (
+/obj/effect/floor_decal/newcorner/teal,
+/obj/machinery/firealarm{
+	pixel_y = -24
 	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_two)
+"UA" = (
+/mob/living/simple_animal/hostile/carp,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/sleep/bedrooms)
 "UP" = (
@@ -1726,6 +1737,10 @@
 	},
 /turf/simulated/floor/tiled/bunker/polar,
 /area/hallway/primary/central_two)
+"VQ" = (
+/mob/living/simple_animal/hostile/carp,
+/turf/space,
+/area/space)
 "VX" = (
 /obj/item/weapon/stool,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -1747,6 +1762,9 @@
 /obj/machinery/optable,
 /turf/simulated/floor/tiled/verybright,
 /area/medical/medbay)
+"Wj" = (
+/turf/simulated/wall/r_wall,
+/area/medical/medbay)
 "WU" = (
 /obj/effect/floor_decal/newcorner/whitegreen/corner,
 /obj/effect/decal/cleanable/generic,
@@ -1756,9 +1774,6 @@
 /obj/effect/floor_decal/newcorner/teal,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
-"Xf" = (
-/turf/simulated/wall,
-/area/medical/chemistry)
 "XC" = (
 /obj/effect/floor_decal/newcorner/whitegreen/solid,
 /obj/effect/floor_decal/industrial/outline,
@@ -1773,52 +1788,7 @@
 /obj/random/medical/lite,
 /turf/simulated/floor/plating,
 /area/hallway/primary/central_two)
-"Yc" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/blue{
-	dir = 1;
-	icon_state = "map"
-	},
-/obj/item/weapon/material/shard{
-	icon_state = "medium"
-	},
-/turf/simulated/floor/tiled/verybright,
-/area/medical/medbay)
-"Ym" = (
-/obj/machinery/door/firedoor/border_only,
-/obj/machinery/door/airlock{
-	id_tag = "Dormitory 2";
-	name = "Shared Bedrooms"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/carpet,
-/area/crew_quarters/sleep/bedrooms)
-"Yn" = (
-/obj/effect/floor_decal/newcorner/whitegreen/solid,
-/obj/machinery/sleeper,
-/turf/simulated/floor/tiled/verybright,
-/area/medical/medbay)
-"Yt" = (
-/obj/effect/floor_decal/newcorner/whitegreen{
-	dir = 1;
-	icon_state = "wgreen";
-	tag = "icon-wgreen (NORTH)"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/verybright,
-/area/medical/medbay)
-"YJ" = (
+"XZ" = (
 /obj/effect/floor_decal/newcorner/teal{
 	dir = 1;
 	icon_state = "teal";
@@ -1837,11 +1807,53 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/alarm{
-	pixel_y = 22
-	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
+"Yc" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/blue{
+	dir = 1;
+	icon_state = "map"
+	},
+/obj/item/weapon/material/shard{
+	icon_state = "medium"
+	},
+/turf/simulated/floor/tiled/verybright,
+/area/medical/medbay)
+"Ym" = (
+/obj/machinery/door/firedoor/border_only,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/door_assembly,
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bedrooms)
+"Yq" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/carpet,
+/area/chapel)
+"Yt" = (
+/obj/effect/floor_decal/newcorner/whitegreen{
+	dir = 1;
+	icon_state = "wgreen";
+	tag = "icon-wgreen (NORTH)"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/verybright,
+/area/medical/medbay)
 "YS" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/firedoor,
@@ -32056,7 +32068,7 @@ aa
 aa
 aa
 aa
-lj
+aa
 lj
 lj
 lj
@@ -32311,16 +32323,16 @@ aa
 aa
 aa
 aa
+aa
+aa
+aa
 lj
 lj
-lj
-lj
-lj
-eo
-eo
+ib
+ib
 UP
-eo
-eo
+ib
+ib
 lj
 lj
 lj
@@ -32567,24 +32579,24 @@ aa
 aa
 aa
 aa
-lj
-ab
-ab
-ab
-ab
-ab
-eo
+aa
+Df
+Df
+NS
+Fv
+Fv
+ib
 NV
 ya
-eT
-eo
+MV
+ib
 lj
 lj
-uK
-uK
-uK
-uK
-uK
+Wj
+Wj
+Wj
+Wj
+Wj
 aa
 aa
 aa
@@ -32824,24 +32836,24 @@ aa
 aa
 aa
 aa
-lj
-ab
+VQ
 Df
 Df
-Df
-TX
-gN
+NS
+iI
+CD
+Hn
 ya
 yn
 ya
-eo
+ib
 xa
 xa
-uK
+Wj
 AX
 Mz
 fr
-uK
+Wj
 lj
 aa
 aa
@@ -33081,24 +33093,24 @@ aa
 aa
 aa
 aa
-lj
-ab
+aa
+NS
 vr
 Jh
-jo
-uh
-gN
+UA
+zU
+Hn
 Qx
-SM
+PI
 hh
-gN
+Hn
 ks
 Az
 id
 uA
 uw
 my
-uK
+Wj
 lj
 lj
 aa
@@ -33339,16 +33351,16 @@ aa
 aa
 lj
 lj
-ab
+Fv
 fR
 sR
-Mg
-uh
-gN
+Dp
+zU
+Hn
 AO
-GY
+Yq
 PP
-gN
+Hn
 tL
 WY
 bl
@@ -33357,8 +33369,8 @@ bl
 bl
 bl
 bl
-uK
-uK
+Wj
+Wj
 aa
 aa
 aa
@@ -33596,27 +33608,27 @@ aa
 aa
 lj
 lj
-ab
+Fv
 Ju
 aA
-uh
-Hc
-gN
+zU
+gq
+Hn
 fY
 bv
 Qj
-gN
+Hn
 yu
 FX
 bl
 bl
 Cb
-Yn
+cB
 bl
 Gh
 pO
-uK
-uK
+Wj
+Wj
 aa
 aa
 aa
@@ -33853,27 +33865,27 @@ aa
 aa
 lj
 lj
-ab
-gi
+Fv
+Sd
 Ym
 bu
-gi
-gN
+Sd
+Hn
 fv
 FC
-gN
-gN
-IO
-Kd
+Hn
+Hn
+fb
+Ta
 bl
 hz
 RP
-sa
+MS
 bl
 PA
 WU
 rR
-TH
+za
 aa
 aa
 aa
@@ -34113,13 +34125,13 @@ lj
 xa
 JT
 Qi
-PH
-PH
+DS
+DS
 qZ
 Sh
 dG
 PH
-CJ
+qP
 Ze
 Rx
 bl
@@ -34130,7 +34142,7 @@ sI
 Tt
 VX
 Wf
-TH
+za
 aa
 aa
 aa
@@ -34371,23 +34383,23 @@ xa
 Pb
 No
 Sx
-Dp
+LN
 kc
-fm
+RZ
 RX
-hY
-mC
+ua
+jY
 Gr
 va
 Qc
 lt
 tA
-gh
+eK
 bl
 NT
 vU
 bc
-TH
+za
 aa
 aa
 aa
@@ -34629,14 +34641,14 @@ xa
 Iu
 xa
 xa
-Xf
-Xf
+Nl
+Nl
 rF
-Xf
-Xf
-YJ
+Nl
+Nl
+PC
 WY
-TH
+za
 sv
 Ab
 SS
@@ -34644,7 +34656,7 @@ bl
 bl
 bl
 bl
-uK
+Wj
 aa
 aa
 aa
@@ -34886,22 +34898,22 @@ pY
 jc
 oo
 xa
-Xf
+Nl
 au
 ZT
 lB
 kX
-RH
+DN
 UX
 BP
 kt
 Kh
-LU
+Af
 bl
 kO
 yw
 um
-TH
+za
 aa
 aa
 aa
@@ -35143,22 +35155,22 @@ Rw
 Vs
 Cf
 xa
-Xf
+Nl
 Tx
 ME
 LE
 SX
-fB
+XZ
 Rx
 bl
 DF
 lR
-Mo
+gR
 GB
 Yt
 Yc
 Lq
-TH
+za
 aa
 aa
 aa
@@ -35400,13 +35412,13 @@ xa
 GS
 xa
 xa
-Xf
+Nl
 yv
 Ns
 Lk
-bB
-fB
-mB
+gI
+XZ
+Tz
 bl
 yo
 HH
@@ -35415,7 +35427,7 @@ bl
 DI
 rG
 QU
-TH
+za
 aa
 aa
 aa
@@ -35657,12 +35669,12 @@ Po
 Ri
 Po
 Po
-Xf
+Nl
 Id
 Ka
 Be
 mV
-RH
+DN
 FX
 bl
 bl
@@ -35671,8 +35683,8 @@ Qd
 bl
 eC
 zV
-uK
-uK
+Wj
+Wj
 aa
 aa
 aa
@@ -35916,19 +35928,19 @@ Po
 Po
 lj
 kx
-Xf
-Xf
+Nl
+Nl
 jv
-qt
-pU
+El
+hJ
 bl
 bl
 bl
 bl
 bl
 bl
-uK
-uK
+Wj
+Wj
 aa
 aa
 aa
@@ -36176,8 +36188,8 @@ lj
 lj
 xa
 wY
-RH
-qO
+DN
+io
 YS
 Bl
 Bl
@@ -36946,7 +36958,7 @@ lj
 lj
 lj
 xa
-mr
+tW
 yW
 ac
 xa
