@@ -827,6 +827,9 @@
 	pixel_y = 32
 	},
 /obj/item/weapon/material/shard,
+/obj/effect/landmark/start{
+	name = "Supreme Arbiter"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bE" = (
@@ -835,6 +838,9 @@
 	icon_state = "black"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/landmark/start{
+	name = "Undertaker"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bF" = (
@@ -843,6 +849,9 @@
 	icon_state = "black"
 	},
 /obj/effect/decal/cleanable/generic,
+/obj/effect/landmark/start{
+	name = "Station Engineer"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bG" = (
@@ -859,6 +868,9 @@
 	icon_state = "4-8";
 	pixel_x = 0;
 	tag = ""
+	},
+/obj/effect/landmark/start{
+	name = "Medical Assistant"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
@@ -913,6 +925,9 @@
 	icon_state = "black";
 	tag = "icon-black (WEST)"
 	},
+/obj/effect/landmark/start{
+	name = "Arbiter"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bM" = (
@@ -942,6 +957,9 @@
 /obj/item/weapon/material/shard{
 	icon_state = "medium"
 	},
+/obj/effect/landmark/start{
+	name = "Janitor"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "bO" = (
@@ -949,6 +967,9 @@
 	dir = 4;
 	icon_state = "black";
 	tag = "icon-black (EAST)"
+	},
+/obj/effect/landmark/start{
+	name = "Jester"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
@@ -1035,6 +1056,9 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/generic,
+/obj/effect/landmark/start{
+	name = "Miner"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cc" = (
@@ -1078,6 +1102,9 @@
 	dir = 4
 	},
 /obj/item/weapon/crowbar,
+/obj/effect/landmark/start{
+	name = "Scientist"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "ch" = (
@@ -1096,6 +1123,9 @@
 "cj" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/effect/landmark/start{
+	name = "Research Director"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
@@ -1127,6 +1157,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/effect/landmark/start{
+	name = "Station Engineer"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cn" = (
@@ -1145,6 +1178,9 @@
 	pixel_x = -32
 	},
 /obj/item/weapon/crowbar,
+/obj/effect/landmark/start{
+	name = "Robocist"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cp" = (
@@ -1156,6 +1192,9 @@
 	pixel_x = 32
 	},
 /obj/effect/decal/cleanable/generic,
+/obj/effect/landmark/start{
+	name = "Loyaler Enforcer"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "cr" = (
@@ -1539,6 +1578,9 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
+/obj/effect/landmark/start{
+	name = "Captain"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "in" = (
@@ -1615,6 +1657,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
+"ky" = (
+/obj/effect/landmark/start{
+	name = "Junior Upkeeper"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "kT" = (
 /obj/structure/table/steel,
 /obj/machinery/recharger,
@@ -1667,6 +1715,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/fore)
+"lE" = (
+/obj/effect/floor_decal/newcorner/black{
+	dir = 4;
+	icon_state = "black";
+	tag = "icon-black (EAST)"
+	},
+/obj/effect/landmark/start{
+	name = "Lifebringer"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "lK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1940,6 +1999,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/effect/landmark/start{
+	name = "Head Enforcer"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "qn" = (
@@ -2003,6 +2065,12 @@
 	},
 /turf/simulated/floor/tiled/dark/airless,
 /area/security/main)
+"rM" = (
+/obj/effect/landmark/start{
+	name = "Botanic"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "rZ" = (
 /obj/effect/floor_decal/newcorner/white,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -2722,6 +2790,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
+"Cj" = (
+/obj/effect/landmark/start{
+	name = "Medical Assistant"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "Cp" = (
 /obj/effect/floor_decal/newcorner/white/corner,
 /obj/effect/floor_decal/newcorner/white/corner{
@@ -2734,7 +2808,7 @@
 /area/hallway/primary/fore)
 "Cr" = (
 /turf/simulated/mineral/random,
-/area/space)
+/area/mine/explored)
 "Ct" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/machinery/door/firedoor,
@@ -3965,6 +4039,12 @@
 	},
 /turf/simulated/floor/tiled/airless,
 /area/bridge)
+"Vq" = (
+/obj/effect/landmark/start{
+	name = "Cook"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "Vu" = (
 /obj/structure/window/reinforced/full,
 /obj/structure/grille,
@@ -4054,6 +4134,9 @@
 	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
+	},
+/obj/effect/landmark/start{
+	name = "Station Engineer"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
@@ -4236,6 +4319,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_room)
+"YJ" = (
+/obj/effect/floor_decal/newcorner/black{
+	dir = 8;
+	icon_state = "black";
+	tag = "icon-black (WEST)"
+	},
+/obj/effect/landmark/start{
+	name = "Loyaler Enforcer"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "YP" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -36317,7 +36411,7 @@ GA
 zY
 bC
 bL
-bL
+YJ
 bX
 cb
 cj
@@ -36573,8 +36667,8 @@ VX
 bw
 zY
 bD
-bY
-bY
+rM
+Cj
 bY
 cc
 VR
@@ -37087,7 +37181,7 @@ VX
 bw
 bA
 bF
-bY
+Vq
 bT
 KB
 KB
@@ -37602,7 +37696,7 @@ bw
 zY
 bG
 bN
-bY
+ky
 bX
 cf
 yn
@@ -37859,7 +37953,7 @@ Aa
 zY
 bH
 bO
-bO
+lE
 bY
 cg
 cm
