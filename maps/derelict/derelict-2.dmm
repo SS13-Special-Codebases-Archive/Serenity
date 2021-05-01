@@ -1389,12 +1389,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/sleep/cryo)
-"fb" = (
-/obj/effect/landmark/start{
-	name = "Cook"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/sleep/cryo)
 "ft" = (
 /obj/effect/floor_decal/newcorner/yellow{
 	dir = 8;
@@ -1551,12 +1545,6 @@
 /obj/random/medical/lite,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fore)
-"hD" = (
-/obj/effect/landmark/start{
-	name = "Junior Upkeeper"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/sleep/cryo)
 "hE" = (
 /obj/effect/floor_decal/newcorner/white{
 	dir = 4;
@@ -1602,12 +1590,6 @@
 	},
 /obj/effect/landmark/start{
 	name = "Captain"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/sleep/cryo)
-"ih" = (
-/obj/effect/landmark/start{
-	name = "Botanic"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
@@ -2106,6 +2088,15 @@
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
 	})
+"ss" = (
+/obj/effect/landmark/start{
+	name = "Cook"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
+"tf" = (
+/turf/space,
+/area/hallway/primary/fore)
 "ti" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -2232,12 +2223,6 @@
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
 	})
-"uY" = (
-/obj/effect/landmark/start{
-	name = "Medical Assistant"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/sleep/cryo)
 "vd" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/newcorner/white/corner,
@@ -2603,6 +2588,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fore)
+"zl" = (
+/obj/effect/floor_decal/newcorner/black{
+	dir = 4;
+	icon_state = "black";
+	tag = "icon-black (EAST)"
+	},
+/obj/effect/landmark/start{
+	name = "Lifebringer"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "zv" = (
 /obj/structure/foamedmetal,
 /obj/structure/cable{
@@ -2635,10 +2631,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/engineering/engine_room)
-"zD" = (
-/obj/item/stack/material/steel/fifty,
-/turf/simulated/floor/plating,
-/area/hallway/primary/fore)
+"zO" = (
+/obj/effect/floor_decal/newcorner/black{
+	dir = 8;
+	icon_state = "black";
+	tag = "icon-black (WEST)"
+	},
+/obj/effect/landmark/start{
+	name = "Loyaler Enforcer"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "zT" = (
 /obj/effect/floor_decal/newcorner/yellow{
 	dir = 4;
@@ -2807,6 +2810,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/sleep/cryo)
+"BT" = (
+/obj/structure/lattice,
+/turf/space,
+/area/bridge)
 "Cp" = (
 /obj/effect/floor_decal/newcorner/white/corner,
 /obj/effect/floor_decal/newcorner/white/corner{
@@ -3067,6 +3074,9 @@
 /obj/item/weapon/material/shard,
 /turf/simulated/floor/tiled,
 /area/engineering/engine_room)
+"Fu" = (
+/turf/space,
+/area/bridge)
 "FA" = (
 /obj/effect/floor_decal/newcorner/white{
 	dir = 1;
@@ -3153,6 +3163,10 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/bar)
+"Gn" = (
+/obj/structure/lattice,
+/turf/space,
+/area/hallway/primary/fore)
 "GA" = (
 /obj/effect/floor_decal/newcorner/white,
 /obj/structure/extinguisher_cabinet{
@@ -3204,6 +3218,12 @@
 /area/errant_pisces/solar_starboard{
 	requires_power = 0
 	})
+"HH" = (
+/obj/effect/landmark/start{
+	name = "Junior Upkeeper"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "HN" = (
 /obj/effect/floor_decal/newcorner/blue{
 	dir = 4;
@@ -3458,17 +3478,6 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled,
 /area/engineering/engine_room)
-"KN" = (
-/obj/effect/floor_decal/newcorner/black{
-	dir = 8;
-	icon_state = "black";
-	tag = "icon-black (WEST)"
-	},
-/obj/effect/landmark/start{
-	name = "Loyaler Enforcer"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/sleep/cryo)
 "Lh" = (
 /obj/effect/floor_decal/newcorner/white/corner,
 /obj/effect/floor_decal/newcorner/white/corner{
@@ -3760,6 +3769,10 @@
 /obj/machinery/light,
 /turf/simulated/floor/plating,
 /area/maintenance/substation/engineering)
+"PT" = (
+/obj/item/stack/material/steel/fifty,
+/turf/simulated/floor/plating,
+/area/hallway/primary/fore)
 "PV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3772,6 +3785,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/fore)
+"Qf" = (
+/obj/effect/landmark/start{
+	name = "Medical Assistant"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/crew_quarters/sleep/cryo)
 "Qg" = (
 /obj/effect/floor_decal/newcorner/red/solid,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -3980,6 +3999,12 @@
 /area/bridge)
 "TG" = (
 /turf/simulated/floor/plating,
+/area/crew_quarters/sleep/cryo)
+"TW" = (
+/obj/effect/landmark/start{
+	name = "Botanic"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/cryo)
 "Uj" = (
 /obj/effect/floor_decal/newcorner/blue/corner{
@@ -4238,17 +4263,6 @@
 	},
 /turf/simulated/floor/tiled/dark/airless,
 /area/security/main)
-"XI" = (
-/obj/effect/floor_decal/newcorner/black{
-	dir = 4;
-	icon_state = "black";
-	tag = "icon-black (EAST)"
-	},
-/obj/effect/landmark/start{
-	name = "Lifebringer"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/crew_quarters/sleep/cryo)
 "XQ" = (
 /obj/structure/bed/chair/bunker/vlt{
 	dir = 1
@@ -35630,7 +35644,7 @@ ix
 ab
 hC
 WD
-zD
+PT
 pE
 lC
 EI
@@ -36427,7 +36441,7 @@ GA
 zY
 bC
 bL
-KN
+zO
 bX
 cb
 cj
@@ -36683,8 +36697,8 @@ VX
 bw
 zY
 bD
-ih
-uY
+TW
+Qf
 bY
 cc
 VR
@@ -37197,7 +37211,7 @@ VX
 bw
 bA
 bF
-fb
+ss
 bT
 KB
 KB
@@ -37712,7 +37726,7 @@ bw
 zY
 bG
 bN
-hD
+HH
 bX
 cf
 yn
@@ -37969,7 +37983,7 @@ Aa
 zY
 bH
 bO
-XI
+zl
 bY
 cg
 cm
@@ -38457,8 +38471,8 @@ Gd
 Gd
 Gd
 AK
-af
-ix
+BT
+Fu
 aa
 Is
 nD
@@ -38718,9 +38732,9 @@ ix
 af
 ix
 aa
-af
-af
-af
+Gn
+Gn
+Gn
 go
 jA
 jA
@@ -38975,8 +38989,8 @@ ix
 ix
 ix
 ix
-af
-ix
+Gn
+tf
 go
 go
 lK
