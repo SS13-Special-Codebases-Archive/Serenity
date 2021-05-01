@@ -160,6 +160,7 @@
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
 "aD" = (
+/obj/item/stack/material/gold/ten,
 /turf/simulated/floor/plating,
 /area/assembly/robotics)
 "aE" = (
@@ -200,6 +201,7 @@
 	pixel_y = 0;
 	tag = ""
 	},
+/obj/item/stack/material/uranium/ten,
 /turf/simulated/floor/tiled/bright,
 /area/rnd/research)
 "aN" = (
@@ -231,6 +233,10 @@
 	icon_state = "red";
 	tag = "icon-red (NORTH)"
 	},
+/obj/structure/table/steel_reinforced,
+/obj/item/weapon/reagent_containers/glass/beaker/sulphuric,
+/obj/item/weapon/reagent_containers/glass/beaker/sulphuric,
+/obj/item/stack/material/plastic/ten,
 /turf/simulated/floor/tiled/bright,
 /area/rnd/research)
 "aR" = (
@@ -250,7 +256,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/alien,
+/obj/item/stack/material/uranium/ten,
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
 "aV" = (
@@ -316,6 +322,8 @@
 	dir = 8
 	},
 /obj/machinery/light,
+/obj/structure/table/steel_reinforced,
+/obj/item/stack/material/silver/ten,
 /turf/simulated/floor/tiled/bright,
 /area/rnd/research)
 "bc" = (
@@ -715,8 +723,8 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fore)
 "bM" = (
-/obj/structure/closet/crate,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/dispenser/oxygen,
 /turf/simulated/floor/tiled,
 /area/quartermaster/qm)
 "bN" = (
@@ -847,6 +855,7 @@
 	},
 /obj/effect/floor_decal/spline/plain,
 /obj/effect/decal/cleanable/generic,
+/obj/item/weapon/pickaxe/hand,
 /turf/simulated/floor/tiled,
 /area/quartermaster/qm)
 "cd" = (
@@ -1004,6 +1013,7 @@
 	tag = "icon-map_scrubber_on (NORTH)"
 	},
 /obj/machinery/light,
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/quartermaster/qm)
 "cq" = (
@@ -1050,6 +1060,10 @@
 "eZ" = (
 /turf/simulated/floor/plating,
 /area/hallway/primary/fore)
+"fg" = (
+/obj/item/weapon/reagent_containers/glass/beaker/sulphuric,
+/turf/simulated/floor/airless,
+/area/assembly/robotics)
 "gQ" = (
 /obj/structure/railing{
 	dir = 4;
@@ -1136,6 +1150,12 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fore)
+"vV" = (
+/obj/structure/closet/crate,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/weapon/pickaxe/drill,
+/turf/simulated/floor/tiled,
+/area/quartermaster/qm)
 "zh" = (
 /turf/simulated/mineral/random,
 /area/mine/explored)
@@ -33383,7 +33403,7 @@ ad
 bo
 by
 pN
-bM
+vV
 ca
 cm
 aP
@@ -34917,7 +34937,7 @@ aa
 ab
 af
 an
-as
+fg
 aD
 aS
 bd

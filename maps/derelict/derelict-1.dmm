@@ -135,7 +135,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/foamedmetal,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "eC" = (
@@ -280,7 +279,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/structure/foamedmetal,
+/obj/structure/inflatable/wall,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "kp" = (
@@ -426,6 +425,11 @@
 	},
 /turf/simulated/floor/tiled/bunker/polar,
 /area/hallway/primary/central_two)
+"ou" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/plating,
+/area/hallway/primary/central_two)
 "pG" = (
 /obj/item/remains/human,
 /turf/simulated/floor/tiled/white,
@@ -452,7 +456,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/structure/foamedmetal,
+/obj/structure/inflatable/wall,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "rF" = (
@@ -624,7 +628,6 @@
 /obj/machinery/firealarm{
 	pixel_x = 24
 	},
-/obj/structure/foamedmetal,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "va" = (
@@ -1262,6 +1265,10 @@
 	},
 /turf/simulated/floor/tiled/no1,
 /area/chapel)
+"OJ" = (
+/obj/structure/inflatable/wall,
+/turf/simulated/floor/airless,
+/area/hallway/primary/central_two)
 "OX" = (
 /obj/structure/sign/churchcross{
 	pixel_x = -32
@@ -1439,7 +1446,7 @@
 	tag = ""
 	},
 /obj/effect/decal/cleanable/blood,
-/obj/structure/foamedmetal,
+/obj/structure/inflatable/wall,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "Qx" = (
@@ -1568,7 +1575,7 @@
 	step_y = 0;
 	tag = "icon-teal (WEST)"
 	},
-/obj/structure/foamedmetal,
+/obj/structure/inflatable/wall,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "Sx" = (
@@ -34120,7 +34127,7 @@ xa
 JT
 Qi
 WC
-WC
+OJ
 qZ
 Sh
 dG
@@ -36442,8 +36449,8 @@ VZ
 Nv
 SR
 jv
-ac
-ac
+ou
+ou
 XR
 xa
 xa
