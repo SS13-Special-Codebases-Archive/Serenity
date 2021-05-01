@@ -35,6 +35,9 @@
 /area/rnd/research)
 "aj" = (
 /obj/machinery/r_n_d/circuit_imprinter,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/rnd/research)
 "ak" = (
@@ -266,6 +269,7 @@
 "aX" = (
 /obj/machinery/computer/rdservercontrol,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/bunker/red,
 /area/rnd/research)
 "aY" = (
@@ -311,11 +315,13 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/bright,
 /area/rnd/research)
 "bc" = (
 /obj/machinery/vending/robotics,
 /obj/effect/floor_decal/newcorner/red/quarter,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics)
 "bd" = (
@@ -371,6 +377,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled,
 /area/assembly/robotics)
 "bh" = (
@@ -512,6 +519,12 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	light_power = 7;
+	light_range = 8
+	},
 /turf/simulated/floor/bluegrid,
 /area/server)
 "bv" = (
@@ -572,6 +585,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fore)
 "bA" = (
@@ -964,6 +978,7 @@
 "cm" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/emcloset,
+/obj/machinery/light,
 /turf/simulated/floor/tiled,
 /area/quartermaster/qm)
 "cn" = (
@@ -988,6 +1003,7 @@
 	icon_state = "map_scrubber_on";
 	tag = "icon-map_scrubber_on (NORTH)"
 	},
+/obj/machinery/light,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/quartermaster/qm)
 "cq" = (
@@ -1043,12 +1059,16 @@
 /turf/space,
 /area/quartermaster/qm)
 "gR" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/universal,
+/obj/machinery/atmospherics/binary/pump/on,
 /turf/simulated/floor/plating,
 /area/quartermaster/qm)
 "hu" = (
 /mob/living/simple_animal/hostile/hivebot/strong,
 /turf/simulated/floor/tiled,
+/area/quartermaster/qm)
+"mj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
+/turf/simulated/floor/plating,
 /area/quartermaster/qm)
 "mZ" = (
 /obj/effect/floor_decal/spline/plain{
@@ -1100,9 +1120,34 @@
 /obj/effect/shuttle_landmark/merc/south,
 /turf/space,
 /area/space)
+"uO" = (
+/obj/effect/floor_decal/newcorner/teal,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/fore)
 "zh" = (
 /turf/simulated/mineral/random,
-/area/space)
+/area/mine/explored)
+"Ja" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	light_power = 7;
+	light_range = 8
+	},
+/turf/simulated/floor/plating,
+/area/hallway/primary/fore)
 
 (1,1,1) = {"
 aa
@@ -34887,7 +34932,7 @@ cu
 eA
 eA
 eA
-eA
+mj
 gR
 qu
 aa
@@ -35135,7 +35180,7 @@ aT
 be
 bi
 bs
-bB
+uO
 pN
 pN
 ch
@@ -35396,7 +35441,7 @@ bE
 bJ
 bV
 ci
-eZ
+Ja
 bt
 zh
 zh
